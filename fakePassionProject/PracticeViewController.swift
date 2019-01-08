@@ -136,19 +136,19 @@ var offSet: CGFloat = 0
     func createSlides() -> [Slide] {
 
                 let slide1:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-                slide1.imageXIB.image = UIImage(named: "blueorigin")
+                slide1.imageXIB.image = UIImage(named: "image1")
 
                 let slide2:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-                slide2.imageXIB.image = UIImage(named: "rocket 3")
+                slide2.imageXIB.image = UIImage(named: "image2")
 
                 let slide3:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-                slide3.imageXIB.image = UIImage(named: "rocket 5")
+                slide3.imageXIB.image = UIImage(named: "image3")
 
                 let slide4:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-                slide4.imageXIB.image = UIImage(named: "rocket1")
+                slide4.imageXIB.image = UIImage(named: "image4")
 
                 let slide5:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
-                slide5.imageXIB.image = UIImage(named: "rocket2")
+                slide5.imageXIB.image = UIImage(named: "image5")
 
                 return [slide1,slide2,slide3,slide4,slide5]
             }
@@ -156,19 +156,19 @@ var offSet: CGFloat = 0
     func createSlides1() -> [Slide2] {
 
         let slide1:Slide2 = Bundle.main.loadNibNamed("Slide2", owner: self, options: nil)?.first as! Slide2
-        slide1.imageXIB2.image = UIImage(named: "NASA")
+        slide1.imageXIB2.image = UIImage(named: "image5")
 
         let slide2:Slide2 = Bundle.main.loadNibNamed("Slide2", owner: self, options: nil)?.first as! Slide2
-        slide2.imageXIB2.image = UIImage(named: "optin8")
+        slide2.imageXIB2.image = UIImage(named: "image4")
 
         let slide3:Slide2 = Bundle.main.loadNibNamed("Slide2", owner: self, options: nil)?.first as! Slide2
-        slide3.imageXIB2.image = UIImage(named: "option3")
+        slide3.imageXIB2.image = UIImage(named: "image3")
 
         let slide4:Slide2 = Bundle.main.loadNibNamed("Slide2", owner: self, options: nil)?.first as! Slide2
-        slide4.imageXIB2.image = UIImage(named: "world1")
+        slide4.imageXIB2.image = UIImage(named: "image2")
 
         let slide5:Slide2 = Bundle.main.loadNibNamed("Slide2", owner: self, options: nil)?.first as! Slide2
-        slide5.imageXIB2.image = UIImage(named: "maybe?")
+        slide5.imageXIB2.image = UIImage(named: "image1")
 
         return [slide1,slide2,slide3,slide4,slide5]
     }
@@ -177,19 +177,19 @@ var offSet: CGFloat = 0
     func createSlides3() -> [Slide3] {
         
         let slide1:Slide3 = Bundle.main.loadNibNamed("Slide3", owner: self, options: nil)?.first as! Slide3
-        slide1.imageXIB3.image = UIImage(named: "NASA")
+        slide1.imageXIB3.image = UIImage(named: "image3")
         
         let slide2:Slide3 = Bundle.main.loadNibNamed("Slide3", owner: self, options: nil)?.first as! Slide3
-        slide2.imageXIB3.image = UIImage(named: "optin8")
+        slide2.imageXIB3.image = UIImage(named: "image4")
         
         let slide3:Slide3 = Bundle.main.loadNibNamed("Slide3", owner: self, options: nil)?.first as! Slide3
-        slide3.imageXIB3.image = UIImage(named: "option3")
+        slide3.imageXIB3.image = UIImage(named: "image2")
         
         let slide4:Slide3 = Bundle.main.loadNibNamed("Slide3", owner: self, options: nil)?.first as! Slide3
-        slide4.imageXIB3.image = UIImage(named: "world1")
+        slide4.imageXIB3.image = UIImage(named: "image5")
         
         let slide5:Slide3 = Bundle.main.loadNibNamed("Slide3", owner: self, options: nil)?.first as! Slide3
-        slide5.imageXIB3.image = UIImage(named: "maybe?")
+        slide5.imageXIB3.image = UIImage(named: "image1")
         
         return [slide1,slide2,slide3,slide4,slide5]
     }

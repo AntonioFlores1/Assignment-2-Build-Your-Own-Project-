@@ -94,43 +94,17 @@ Details: \(cellInfo.details ?? "INFO Not Available")
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 2
     }
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
+        
+        guard let vc = storyBoard.instantiateViewController(withIdentifier: "rocketDetail") as? MyCollectionDetailViewController  else {return}
+        
+        vc.modalTransitionStyle = .flipHorizontal
+        vc.DetailLaunches = rocks[indexPath.row]
+        present(vc, animated: true, completion: nil)
+    }
 }
 
 
 
-//var rocks = [AllSpaceXLaunches](){
-//        didSet {
-//            DispatchQueue.main.async {
-//                self.rocketCollectionView.reloadData()
-//            }
-//        }
-//    }
-
-
-//func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//    let cell = rocketCollectionView.dequeueReusableCell(withReuseIdentifier: "newCell", for: indexPath) as UICollectionViewCell //as? collectionInfo else {return UICollectionViewCell()}
-//    let cellSelected = rocketInfo[indexPath.row]
-
-    //    cell.FlightNameAndNumber.text = "Flight: \(cellSelected.flight_number) Missions: \(cellSelected.mission_name)"
-    //
-    //    cell.collectiondetail.text = "Details: \(cellSelected.details)"
-    //
-    //    guard let URLimage = URL.init(string: (cellSelected.links?.mission_patch_small)!) else {return UICollectionViewCell()}
-    //    do {
-    //        let data = try Data.init(contentsOf: URLimage)
-    //        cell.collectionImage.image = UIImage.init(data: data)
-    //    } catch {
-    //        print("Image Error:\(error)")
-    //    }
-    
-//    return cell
-//}
-
-
-
-//func preferredStatusBarStyle() -> UIStatusBarStyle {
-//    return UIStatusBarStyle.lightContent
-//}
-//func numberOfSections(in collectionView: UICollectionView) -> Int {
-//    return 1
-//}

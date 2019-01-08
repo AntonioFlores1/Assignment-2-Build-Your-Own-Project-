@@ -29,6 +29,7 @@
 		55A07B1621D5EBF400DB088C /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A07B1521D5EBF400DB088C /* PracticeViewController.swift */; };
 		55A07B1821D6358500DB088C /* collectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A07B1721D6358500DB088C /* collectionViewController.swift */; };
 		55A07B1A21D641AC00DB088C /* collectionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A07B1921D641AC00DB088C /* collectionInfo.swift */; };
+		55D62AB621E5304F006190C9 /* MyCollectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D62AB521E5304F006190C9 /* MyCollectionDetailViewController.swift */; };
 		55DA779121DC230E0066D73E /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA779021DC230E0066D73E /* menuViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		55A07B1521D5EBF400DB088C /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		55A07B1721D6358500DB088C /* collectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewController.swift; sourceTree = "<group>"; };
 		55A07B1921D641AC00DB088C /* collectionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionInfo.swift; sourceTree = "<group>"; };
+		55D62AB521E5304F006190C9 /* MyCollectionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionDetailViewController.swift; sourceTree = "<group>"; };
 		55DA779021DC230E0066D73E /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 				5584A61B21CB32B200545670 /* AllLaunches.swift */,
 				5574FDA821DC67F7000292B0 /* Rockets.swift */,
 				55A07B0D21D3776600DB088C /* MyCollectionViewController.swift */,
+				55D62AB521E5304F006190C9 /* MyCollectionDetailViewController.swift */,
 				55209DF221D6DC1A00A1832C /* MyCollectionViewCell.swift */,
 				55A07B0921CDAF0C00DB088C /* rocketCell.swift */,
 				55A07B1121D5E76200DB088C /* Slide.swift */,
@@ -197,6 +200,7 @@
 				55A07B0E21D3776600DB088C /* MyCollectionViewController.swift in Sources */,
 				5574FDAB21DC8216000292B0 /* RocketCollectionViewController.swift in Sources */,
 				5584A61C21CB32B200545670 /* AllLaunches.swift in Sources */,
+				55D62AB621E5304F006190C9 /* MyCollectionDetailViewController.swift in Sources */,
 				5574FDA921DC67F7000292B0 /* Rockets.swift in Sources */,
 				55A07B1A21D641AC00DB088C /* collectionInfo.swift in Sources */,
 				55209DFD21DB08EE00A1832C /* Slide3.swift in Sources */,

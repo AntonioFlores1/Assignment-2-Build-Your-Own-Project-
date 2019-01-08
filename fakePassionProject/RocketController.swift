@@ -41,10 +41,10 @@ class RocketController: UIViewController {
         
         URLSession.shared.dataTask(with: rocketUrl) { (data,response, error) in
             if let data = data {
-                completionHandler(data)
+            completionHandler(data)
             }
             if let response = response {
-                print("Rsponse : \(response)")
+                print("Rsponse: \(response)")
             }
             if let error = error {
                 print("URL failed because: \(error)")
@@ -88,7 +88,6 @@ extension RocketController: UITableViewDataSource {
             print("Error Data \(error)")
         }
         
-        //cell.rocketImage.image = UIImage.  cellSelected.links?.mission_patch_small
         return cell
     }
 }
